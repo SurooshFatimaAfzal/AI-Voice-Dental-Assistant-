@@ -33,7 +33,7 @@ function Header() {
           </Button>
         </SignInButton>
         <SignUpButton mode="modal">
-          <Button variant={"ghost"} size={"sm"}>
+          <Button variant={"secondary"} size={"sm"}>
             Sign Up         
           </Button>
         </SignUpButton>
