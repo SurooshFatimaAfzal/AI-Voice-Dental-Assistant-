@@ -24,12 +24,36 @@ function Hero() {
                     AI-Powered Dental Assistant
                   </span>
                 </div>
+
+                 {/* MAIN HEADING */}
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+                  <span className="bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
+                    Your dental
+                  </span>
+                  <br />
+                  <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+                    questions
+                  </span>
+                  <br />
+                  <span className="bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
+                    answered instantly
+                  </span>
+                </h1>
+
+                {/* SUBTITLE */}
+                <p className="text-lg text-muted-foreground leading-relaxed max-w-xl font-medium">
+                  Chat with our AI dental assistant for instant advice, book smart appointments, and
+                  get personalized care recommendations. Available 24/7.
+                </p>
+              </div>
+
               </div> 
         </div>
       </div>
-    </div>
     </div>
     </section>;
 }
  
 export default Hero;
+
+
