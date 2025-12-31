@@ -1,4 +1,7 @@
 import React from 'react'
+import { SignUpButton } from '@clerk/nextjs';
+import {Button } from "@/components/ui/button";
+import { CalendarIcon, MicIcon, StarIcon } from 'lucide-react';
 
 function Hero() {
   return <section className="relative h-screen flex items-center overflow-hidden pt-20">
@@ -46,14 +49,29 @@ function Hero() {
                   get personalized care recommendations. Available 24/7.
                 </p>
               </div>
+                {/* CTA BUTTONS */}
+              <div className="flex flex-col sm:flex-row gap-4">
+                <SignUpButton mode="modal">
+                  <Button size={"lg"} variant={"outline"}>
+                    <MicIcon className="mr-2 size-5" />
+                    Try voice agent
+                  </Button>
+                </SignUpButton>
 
-              </div> 
+                <SignUpButton mode="modal">
+                  <Button size={"lg"} variant={"outline"}>
+                    <CalendarIcon className="mr-2 size-5" />
+                    Book appointment
+                  </Button>
+                </SignUpButton>
+              </div>
+
+              
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    </section>;
+    </section>
 }
- 
+
 export default Hero;
-
-
