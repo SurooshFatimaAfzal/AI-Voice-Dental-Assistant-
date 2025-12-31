@@ -52,7 +52,7 @@ function Hero() {
                 {/* CTA BUTTONS */}
               <div className="flex flex-col sm:flex-row gap-4">
                 <SignUpButton mode="modal">
-                  <Button size={"lg"} variant={"outline"}>
+                  <Button size={"lg"}>
                     <MicIcon className="mr-2 size-5" />
                     Try voice agent
                   </Button>
