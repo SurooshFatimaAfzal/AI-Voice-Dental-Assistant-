@@ -16,10 +16,10 @@ function Hero() {
       <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-gradient-to-r from-primary/15 to-primary/5 rounded-full blur-3xl" />
 
       <div className="relative z-10 w-full px-6">
-        {/* Change 1: max-w-7xl -> max-w-6xl (Overall width kam ki) */}
+        {/* Change 1: max-w-7xl -> max-w-6xl */}
         <div className="max-w-6xl mx-auto">
           
-          {/* Change 2: gap-16 -> gap-12 (Beech ka gap kam kiya) */}
+          {/* Change 2: gap-16 -> gap-12 */}
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             
             {/* LEFT CONTENT */}
@@ -50,7 +50,7 @@ function Hero() {
                 </h1>
 
                 {/* SUBTITLE */}
-                {/* Change 4: text-lg -> text-base (Paragraph thora chota kiya) */}
+                {/* Change 4: text-lg -> text-base  */}
                 <p className="text-base text-muted-foreground leading-relaxed max-w-xl font-medium">
                   Chat with our AI dental assistant for instant advice, book smart appointments, and
                   get personalized care recommendations. Available 24/7.
